@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Git') {
             steps {
                 echo "$GIT_BRANCH"
             }
